@@ -37,6 +37,10 @@
         }
         return color;
     }
+    let paragraf = document.querySelectorAll("p");
+    for (const p of paragraf){
+        p.style.border = "1px solid" + getRandomColor();
+    }
 </script>
 
 </html>
